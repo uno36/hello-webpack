@@ -10,7 +10,7 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js --loader:.js=jsx"
   },
   "devDependencies": {
     "@babel/core": "^7.23.0",
